@@ -32,16 +32,16 @@
     <h2>Getting Bolt</h2>
 
     <p>
-      Grab the latest release tar from <a href="http://bolt">bolt</a>. And install node.js v0.8+ from
+      Grab the latest release tar from <a href="http://dist.boltjs.io/1.4.0.4/bolt-1.4.0.4.tar.gz">http://dist.boltjs.io/1.4.0.4/bolt-1.4.0.4.tar.gz</a>. And install node.js v0.8+ from
       <a href="http://nodejs.org/#download">http://nodejs.org/</a> or your package manager.
     </p>
 
     <p>
       Unpack the tar, and put bolt on the path. For example:
     <pre>
-tar xfz bolt.tar.gz
-ln -s `pwd`/bolt-*/bin/bolt /usr/local/bin/bolt
-ln -s `pwd`/bolt-*/bin/jsc /usr/local/bin/jsc
+cd install-dir
+curl http://dist.boltjs.io/1.4.0.4/bolt-1.4.0.4.tar.gz | tar xfz -
+sudo ln -s `pwd`/bolt-*/bin/bolt /usr/local/bin/bolt
 </pre>
 
     <p>
