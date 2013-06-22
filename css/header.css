@@ -1,0 +1,28 @@
+.bolt-header-inner {
+    height: 40px!important;
+    padding: 10px 15px!important;
+    background: #333!important;
+    border-bottom: 5px #333 solid !important;
+}
+
+.bolt-header .title {
+    color: #fff;
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bolt-header .title:hover {
+    text-decoration: none;
+}
+.bolt-header {
+    padding-bottom: 40px;
+}
+
+.title i {
+    margin-right: 10px;
+}
