@@ -1,0 +1,2 @@
+exclude: ['README.md', 'Makefile', 'LICENSE', 'LICENSE.ephox', 'COPYING', 'CONTRIBUTORS']
+release: 1.4.0.2
