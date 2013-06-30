@@ -3,25 +3,35 @@
   <head>
     <title>Bolt JavaScript Framework</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="/css/main.css" type="text/css">
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,italic,bold,bolditalic" media="screen" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" media="screen" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">
-    <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/prism.css" type="text/css">
+    <script src="js/prism.js"></script>
   </head>
   <body>
-    <div id="header" class="bolt-header">
-      <div class="bolt-header">
-        <div class="bolt-header-inner">
-          <div class="container">
-            <div class="row">
-              <a class="title" href="/">bolt</a>
+    <div class="headbar">
+      <div class="headbar-inner">
+        <div class="container">
+          <div class="row">
+            <div class="span1">
+              <a class="brand" href="/"><i class="icon-bolt icon-alt-color"></i>Bolt</a>
             </div>
-          </div>
+            <div class="span8 offset 1">
+              <ul class="page-actions pull-right">
+                <li><a href="https://github.com/boltjs/bolt">github</a></li>
+                <li><a href="https://github.com/boltjs/bolt/issues">issues</a></li>
+                <li><a href="/doc/">documentation</a></li>
+                <li><a href="/doc/quickstart">quickstart</a></li>
+              </ul>
+            </div>
         </div>
       </div>
     </div>
+
     <div id="content">
       {{ content }}
     </div>
